@@ -1,6 +1,6 @@
 # Foundry Fund Me
 
-With this Foundry project you can create a simple Funde Me contract. It was made for the Foundry Fundamentals course of Cyfrin Updraft.
+With this Foundry project you can create a simple Fund Me contract. It was made for the Foundry Fundamentals course of Cyfrin Updraft.
 
 <br>
 
@@ -204,13 +204,13 @@ To withdraw the funds, run this:
 forge script script/Interactions.s.sol:WithdrawFundMe --rpc-url <Your_Alchemy_Sepolia_Node_Url> --account <Your_Encrypted_Sepolia_Private_Key_Account_Name>  --broadcast
 ```
 
-If the contract was verified in Etherscan, you can fund it and withdraw the funds from the UI.
+You can also fund the contract and withdraw the funds from the Etherscan UI if it was correctly verified.
 
 <br>
 
 # Acknowledgments
 
-Thanks to the Cyfrin Updraft team and to Patrick Collins for their amazing work. Please checkout their courses on [Cyfrin Updraft](https://updraft.cyfrin.io/courses).
+Thanks to the Cyfrin Updraft team and to Patrick Collins for their amazing work. Please check out their courses on [Cyfrin Updraft](https://updraft.cyfrin.io/courses).
 
 <br>
 
