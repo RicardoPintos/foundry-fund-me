@@ -55,9 +55,9 @@ forge build
 
 This project uses the following libraries:
 
-- [Chainlink-brownie-contracts (version 1.1.1)](https://https://github.com/smartcontractkit/chainlink-brownie-contracts)
-- [Cyfrin-foundry-devops (version 0.2.2)](https://https://github.com/Cyfrin/foundry-devops)
-- [Foundry-forge-std (version 1.8.2)](https://https://github.com/foundry-rs/forge-std)
+- [Chainlink-brownie-contracts (version 1.1.1)](https://github.com/smartcontractkit/chainlink-brownie-contracts)
+- [Cyfrin-foundry-devops (version 0.2.2)](https://github.com/Cyfrin/foundry-devops)
+- [Foundry-forge-std (version 1.8.2)](https://github.com/foundry-rs/forge-std)
 
 You can install all of them with the following command:
 
@@ -163,7 +163,7 @@ forge script script/DeployFundMe.s.sol:DeployFundMe --rpc-url <Your_Alchemy_Sepo
 If your contract wasn't properly verified on deployment, you can manually do it on the Ethescan UI by running this:
 
 ```
-forge verify-contract <Your_Raffle_Address> src/FundMe.sol:FundMe --etherscan-api-key <Your_Etherscan_Api_key> --rpc-url <Your_Alchemy_Sepolia_Node_Url> --show-standard-json-input > json.json
+forge verify-contract <Your_FundMe_Address> src/FundMe.sol:FundMe --etherscan-api-key <Your_Etherscan_Api_key> --rpc-url <Your_Alchemy_Sepolia_Node_Url> --show-standard-json-input > json.json
 ```
 
 ## Scripts
