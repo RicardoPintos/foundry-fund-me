@@ -26,7 +26,7 @@ With this Foundry project you can create a simple Fund Me contract. It was made 
 
 <br>
 
-![LokapalBanner](https://github.com/user-attachments/assets/5358f442-06f3-4bf4-b22f-fbefb2743762)
+![LokapalBanner](https://github.com/user-attachments/assets/5509e1f8-9f31-4141-8975-02132a1ba63e)
 
 <br>
 
